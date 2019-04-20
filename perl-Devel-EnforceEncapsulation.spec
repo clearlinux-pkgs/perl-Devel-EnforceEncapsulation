@@ -4,7 +4,7 @@
 #
 Name     : perl-Devel-EnforceEncapsulation
 Version  : 0.51
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/C/CD/CDOLAN/Devel-EnforceEncapsulation-0.51.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CD/CDOLAN/Devel-EnforceEncapsulation-0.51.tar.gz
 Summary  : 'Find access violations to blessed objects'
@@ -23,6 +23,7 @@ under the same terms as Perl itself.
 Summary: dev components for the perl-Devel-EnforceEncapsulation package.
 Group: Development
 Provides: perl-Devel-EnforceEncapsulation-devel = %{version}-%{release}
+Requires: perl-Devel-EnforceEncapsulation = %{version}-%{release}
 
 %description dev
 dev components for the perl-Devel-EnforceEncapsulation package.
