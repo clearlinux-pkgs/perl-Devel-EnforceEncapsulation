@@ -4,7 +4,7 @@
 #
 Name     : perl-Devel-EnforceEncapsulation
 Version  : 0.51
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/C/CD/CDOLAN/Devel-EnforceEncapsulation-0.51.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CD/CDOLAN/Devel-EnforceEncapsulation-0.51.tar.gz
 Summary  : 'Find access violations to blessed objects'
@@ -98,4 +98,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Devel/EnforceEncapsulation.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Devel/EnforceEncapsulation.pm
